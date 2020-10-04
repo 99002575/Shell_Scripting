@@ -1,0 +1,15 @@
+==10595== Memcheck, a memory error detector
+==10595== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==10595== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==10595== Command: ./all.out
+==10595== 
+c=30,d=100
+==10595== 
+==10595== HEAP SUMMARY:
+==10595==     in use at exit: 0 bytes in 0 blocks
+==10595==   total heap usage: 1 allocs, 1 frees, 4,096 bytes allocated
+==10595== 
+==10595== All heap blocks were freed -- no leaks are possible
+==10595== 
+==10595== For lists of detected and suppressed errors, rerun with: -s
+==10595== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
